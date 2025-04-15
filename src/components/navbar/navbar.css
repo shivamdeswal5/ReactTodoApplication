@@ -1,0 +1,73 @@
+.nav{
+    display: flex;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    padding: 1.1rem;
+    flex-wrap: wrap;
+}
+
+.ul{
+    list-style-type: none;
+    width: 100%;
+ }
+
+
+.ul li{
+    color: white;
+    margin-inline: 11px;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+  
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.options{
+    display: flex;
+    gap: 1rem;
+    margin-right: 3rem;
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+.options a{
+    color: yellow;
+}
+
+.options a:hover{
+    color: red;
+}
+
+.heading{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 323px) {
+
+    .nav {
+        padding: 0.5rem;
+    }
+
+    .options{
+        gap: 0.2rem;
+        margin-right: 1rem;
+    }    
+
+}
+
+@media screen and (max-width: 279px) {
+
+    .ul li{
+        display: flex;
+        flex-direction: column;
+      
+    }  
+    .options{
+        gap: 0 0.8rem;
+    }   
+
+}
+
